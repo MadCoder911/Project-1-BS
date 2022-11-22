@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Blog</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm bg-light">
+      <div class="container-xxl">
+        <a class="navbar-brand" href="#">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            `
+            width="26"
+            height="26"
+            fill="currentColor"
+            class="bi bi-person-circle me-2"
+            viewBox="0 0 16 16"
+          >
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+            <path
+              fill-rule="evenodd"
+              d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
+            />
+          </svg>
+          Your name
+        </a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon border-0"></span>
+        </button>
+        <div
+          class="collapse border-0 navbar-collapse"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown"></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- First section -->
+    <section class="intro">
+      <div class="container mt-5">
+        <h1 class="display-4">Ahmed Essam</h1>
+        <p class="fs-3 fw-light text-muted">Your profession</p>
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <img src="imgs/img1.jpeg" class="img-fluid rounded" alt="" />
+          </div>
+          <div class="col-lg-6 mt-lg-0 mt-5">
+            <h1>About</h1>
+            <p class="lead">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur,
+              fugit excepturi labore cumque numquam quia quod maxime aliquam
+              iste culpa nisi ducimus inventore animi sed exercitationem eaque
+              neque reiciendis! Sunt! Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Explicabo, odio est esse distinctio tempora
+              aspernatur omnis atque exercitationem itaque sapiente suscipit
+              dolorum tempore molestiae iusto temporibus quis quasi beatae quo.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Veritatis et aliquam reiciendis id, recusandae ex repudiandae odit
+              beatae! Aperiam sequi harum facere dolores nihil tenetur minima
+              maxime error?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Second section -->
+    <secttion class="featured section">
+      <div class="container">
+        <h2 class="mt-5 mb-3">Featured posts</h2>
+        <div class="row">
+          <div class="col-lg-3 col-6">
+            <figure class="figure">
+              <img
+                src="imgs/img6.jpeg"
+                class="figure-img img-fluid rounded"
+                alt="..."
+              />
+              <figcaption class="figure-caption">
+                A caption for the above image.
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="col-lg-3 col-6">
+            <figure class="figure">
+              <img
+                src="imgs/img2.jpeg"
+                class="figure-img img-fluid rounded"
+                alt="..."
+              />
+              <figcaption class="figure-caption">
+                A caption for the above image.
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-3 col-6">
+            <figure class="figure">
+              <img
+                src="imgs/img3.jpeg"
+                class="figure-img img-fluid rounded"
+                alt="..."
+              />
+              <figcaption class="figure-caption">
+                A caption for the above image 3.
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-3 col-6">
+            <figure class="figure">
+              <img
+                src="imgs/img2.jpeg"
+                class="figure-img img-fluid rounded"
+                alt="..."
+              />
+              <figcaption class="figure-caption">
+                A caption for the above image 4.
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-3 col-6">
+            <figure class="figure">
+              <img
+                src="imgs/img5.jpeg"
+                class="figure-img img-fluid rounded"
+                alt="..."
+              />
+              <figcaption class="figure-caption">
+                A caption for the above image.
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-3 col-6">
+            <figure class="figure">
+              <img
+                src="imgs/img6.jpeg"
+                class="figure-img img-fluid rounded"
+                alt="..."
+              />
+              <figcaption class="figure-caption">
+                A caption for the above image.
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </secttion>
+    <!-- Third section -->
+    <section class="carousel section">
+      <div class="container">
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-lg-6">
+                  <h3>Title 1</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                    dolores dignissimos ipsum repudiandae porro hic magnam
+                    voluptate! Totam eos minima adipisci iusto a vitae, qui quia
+                    fugit inventore animi magni!
+                  </p>
+                </div>
+                <div class="col-lg-6">
+                  <h3>Title 2</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                    dolores dignissimos ipsum repudiandae porro hic magnam
+                    voluptate! Totam eos minima adipisci iusto a vitae, qui quia
+                    fugit inventore animi magni!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-6">
+                  <h3>Title 3</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                    dolores dignissimos ipsum repudiandae porro hic magnam
+                    voluptate! Totam eos minima adipisci iusto a vitae, qui quia
+                    fugit inventore animi magni!
+                  </p>
+                </div>
+                <div class="col-lg-6">
+                  <h3>Title 4</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                    dolores dignissimos ipsum repudiandae porro hic magnam
+                    voluptate! Totam eos minima adipisci iusto a vitae, qui quia
+                    fugit inventore animi magni!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-6">
+                  <h3>Title 5</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                    dolores dignissimos ipsum repudiandae porro hic magnam
+                    voluptate! Totam eos minima adipisci iusto a vitae, qui quia
+                    fugit inventore animi magni!
+                  </p>
+                </div>
+                <div class="col-lg-6">
+                  <h3>Title 6</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                    dolores dignissimos ipsum repudiandae porro hic magnam
+                    voluptate! Totam eos minima adipisci iusto a vitae, qui quia
+                    fugit inventore animi magni!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="content mt-4 mb-4 section">
+      <div class="container">
+        <h3 class="mb-3">Contact (Your Name)</h3>
+        <form action="" class="row g-3 needs-validation">
+          <div class="col-md-4">
+            <label for="name1" class="form-label">First Name</label>
+            <input type="text" id="name1" class="form-control" required />
+            <div class="valid-feedback">Looks good !</div>
+          </div>
+          <div class="col-md-4">
+            <label for="name2" class="form-label">Last Name</label>
+            <input type="text" id="name2" class="form-control" required />
+            <div class="valid-feedback">Looks good !</div>
+          </div>
+          <div class="col-md-4">
+            <label for="username" class="form-label">Username</label>
+            <div class="input-group has-validation" required>
+              <span class="input-group-text">@</span>
+              <input type="text" class="form-control" id="username" required />
+              <div class="invalid-feedback">Choose a different username !</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="city" class="form-label">City</label>
+            <input type="text" id="city" class="form-control" required />
+            <div class="invalid-feedback">Please choose a city !</div>
+          </div>
+          <div class="col-md-3">
+            <label for="selectarea" class="form-label">State</label>
+            <select id="" class="form-select">
+              <option selected disabled>Choose</option>
+              <option value="GT">Georgia</option>
+              <option value="CL">California</option>
+              <option value="AZ">Arizone</option>
+              <option value="TX">Texas</option>
+            </select>
+            <div class="invalid-feedback">Please choose a state !</div>
+          </div>
+          <div class="col-md-3">
+            <label for="zip" class="form-label">ZIP</label>
+            <input type="text" class="form-control" required />
+            <div class="invalid-feedback">Please provide a valid ZIP</div>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="invalidCheck"
+                required
+              />
+              <label class="form-check-label" for="invalidCheck">
+                Agree to terms and conditions
+              </label>
+              <div class="invalid-feedback">
+                You must agree before submitting.
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary">Submit Form</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="mt-3 bg-light py-5 section">
+      <div class="container">
+        <div
+          class="row align-items-center justify-content-center justify-content-lg-start"
+        >
+          <div class="col-lg-3 col-6">
+            <h4>
+              <div class="fa fa-facebook"></div>
+              <a href="facebook.com">Facebook</a>
+            </h4>
+          </div>
+          <div class="col-lg-3 col-6">
+            <h4>
+              <div class="fa fa-twitter"></div>
+              <a href="twitter.com">Twitter</a>
+            </h4>
+          </div>
+          <div class="col-lg-3 col-6 mt-5 mt-lg-0">
+            <h4>
+              <div class="fa fa-github"></div>
+              <a href="github.com">Github</a>
+            </h4>
+          </div>
+          <div class="col-lg-3 col-6 mt-5 mt-lg-0">
+            <h4>
+              <div class="fa fa-instagram"></div>
+              <a href="www.instagram.com">Instagram</a>
+            </h4>
+          </div>
+        </div>
+
+        <hr class="mt-5" />
+        <div class="text-center text-muted">&copy; Ahmed Essam 2022</div>
+      </div>
+    </footer>
+    <!-- JS File -->
+    <script src="../Project1/script/script.js"></script>
+    <script src="script/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
